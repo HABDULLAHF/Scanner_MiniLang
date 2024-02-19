@@ -1,0 +1,21 @@
+// This is a MiniLang program
+
+int main() {
+    print("Hello, World!");
+
+    int  x = 5;
+    bool flag = false;
+
+    print(x+1);
+
+    if (x == 5) {
+        print("It's five");
+        flag = true;
+    }
+    else {
+        print("It's not five);
+        flag = false;
+    }
+
+    return 0;
+}
